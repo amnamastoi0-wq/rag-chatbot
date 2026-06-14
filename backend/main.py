@@ -17,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-client = Groq(api_key=os.getenv("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"))
+client = Groq(api_key=os.getenv("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"))
 
 class Message(BaseModel):
     message: str
